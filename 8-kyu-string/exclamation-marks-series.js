@@ -7,11 +7,12 @@
 // remove("Hi") == "Hi"
 
 function remove(string) {
-  if(string.slice(-1) === "!"){
-    console.log(string.slice(0,-1));
-  }
-  else{
+  if (string.slice(-1) === "!") {
+    console.log(string.slice(0, -1));
+  } else {
     console.log(string);
   }
 }
 remove("!Hi");
+
+
