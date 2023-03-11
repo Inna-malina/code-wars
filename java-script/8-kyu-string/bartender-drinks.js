@@ -21,7 +21,6 @@ function getDrinkByProfession(param) {
   else{
     return 'Beer';
   }
-
 }
 
 getDrinkByProfession("School Counselor");
