@@ -14,12 +14,8 @@ function positiveSum(arr) {
   if (arr == []) {
     res = 0;
   }
-
   console.log(res);
-  // let res = arr.reduce((a, b) =>
-  //   a + b, 0);
 
-  // console.log(res);
 }
 
-positiveSum([1,-4,7,12]);
+positiveSum([]);
